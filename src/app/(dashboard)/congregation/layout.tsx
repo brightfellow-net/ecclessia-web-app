@@ -8,14 +8,15 @@ export default function DashboardLayout({
   return (
     <>
       <header>
-        <Navbar title="Dashboard" items={
-          [
+        <Navbar
+          title="Dashboard"
+          items={[
             {
               title: "Congregation",
-              href: "/congregation"
-            }
-          ]
-        }/>
+              href: "/congregation",
+            },
+          ]}
+        />
       </header>
       <main>{children}</main>
       <footer>foot</footer>
