@@ -1,6 +1,6 @@
 import Navbar from "@/components/layout/header/Navbar";
 
-export default function DashboardLayout({
+export default function CongregationLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
